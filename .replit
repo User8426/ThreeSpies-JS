@@ -1,2 +1,2 @@
-language = "JS"
+language = "javascript"
 run = "npm install && node index.js"
