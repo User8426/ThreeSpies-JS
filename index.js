@@ -3,6 +3,10 @@
 const app = require('express')
 
 const middleware = (req, res, next) => {
-
+	
 } 
+
 app.use(middleware)
+app.listen(80, () => {
+	console.log('ThreeSpies server is running.')
+})
